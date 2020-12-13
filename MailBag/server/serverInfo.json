@@ -1,0 +1,18 @@
+{
+    "smtp" : {
+      "host" : "smtp.gmail.com",
+      "port" : 465,
+      "auth" : {
+        "user" : "smkoshy@uci.edu",
+        "pass" : "Em@!L4UCI"
+      }
+    },
+    "imap" : {
+      "host" : "imap.gmail.com",
+      "port" : 993,
+      "auth" : {
+        "user" : "smkoshy@uci.edu",
+        "pass" : "Em@!L4UCI"
+      }
+    }
+  }

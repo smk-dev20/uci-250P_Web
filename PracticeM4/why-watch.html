@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- 
+    https://www.pexels.com/photo/starry-sky-998641/ background image    
+    Code Reference :
+    HTML and CSS: Design and Build Websites by Jon Duckett
+    https://www.c-sharpcorner.com/UploadFile/c63ec5/building-a-simple-website-with-typescript/
+-->
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Why Watch Star Trek</title>
+    <style type="text/css">
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;}
+        body {
+            color: #3b53a5;
+            background-color: #c8d8db; 
+            background-image: url("img/space.jpeg");
+            background-position: center;
+            font-family: Georgia, Times, serif;
+            line-height: 1.4em;
+            margin: 0px;}
+            .wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #e9ecf0;}
+                header {
+				height: 160px;
+                color: #ffffff;
+				background-color: #8f9eaa;
+				height: 30px;}
+                h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 10px;}
+                h3 {
+				margin: 0px 0px 10px 40px;
+				color: #8d2ab4;}
+                footer {
+                color: #ffffff;
+				background-color: #8f9eaa;
+				height: 30px;
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+    </style>        
+    		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+<body onLoad="start();">
+    <div class= "wrapper">
+        <header></header>
+        <div id="mainContainer"></div>
+            <div id="watch"></div>
+            <h3 id="to-watch1"></h3>
+            <h3 id="to-watch2"></h3>
+        <footer>
+            &copy; 2020 smkoshy
+        </footer>
+    </div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.
+development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.
+development.js"></script>
+<script crossorigin src="https://unpkg.com/prop-types@15.6/prop-types.
+js"></script>
+<script src="main.js"></script>
+<script src="app.js"></script>
+</html>

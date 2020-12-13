@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+	Sherlin Mary Koshy (smkoshy) MSWE 250P 
+	Image sources:
+	https://images.app.goo.gl/5FutENeP3mp5pFhcA janeway
+	https://images.app.goo.gl/hrqNLva1zwaQA8aS6 seven
+	https://www.pexels.com/photo/starry-sky-998641/ background
+	https://fontmeme.com/permalink/201124/222cc5095daeb6f4581d475cb2b1ddef.png header
+	Code Reference :
+	HTML and CSS: Design and Build Websites by Jon Duckett
+-->
+<html>
+	<head>
+		<title>Star Trek Women</title>
+		<style type="text/css">
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #3b53a5;
+				background-color: #c8d8db; 
+				background-image: url("img/space.jpeg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #e9ecf0;}
+			header {
+				height: 160px;
+				background-image: url("img/header.png");}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #8f9eaa;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #131c97;}
+			section.crew {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d90;
+				background-color: #efefef;}
+			a {
+				color: #7f65de;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #8d2ab4;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #8d2ab4;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+		</style>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Star Trek Women</h1>
+				<nav>
+					<ul>
+						<li><a href="" class="current">Voyager</a></li>
+						<li><a href="">Next Generation</a></li>
+						<li><a href="">Enterprise</a></li>
+						<li><a href="">Deep Space Nine</a></li>
+						<li><a href="">Original</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="crew">
+				<article>
+					<figure>
+						<img src="img/janeway.jpg" alt="Katherine Janeway" />
+						<figcaption>Katherine Janeway</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Katherine Janeway</h2>
+						<h3>Captain of the Starship Voyager</h3>
+					</hgroup>
+					<p>Stranded in the Delta Quadrant, fighting the Borg, the Hirogen and species 8472 to get her crew home.</p>
+				</article>    
+				<article>
+					<figure>
+						<img src="img/seven.jpg" alt="Seven of Nine" />
+						<figcaption>Seven of Nine</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Seven of Nine</h2>
+						<h3>Former Borg</h3>
+					</hgroup>
+					<p>Reclaiming her humanity while retaining Borg Perfection.</p>
+				</article>    
+			</section>
+			<aside>
+				<section class="noteworthy-crew">
+					<h2>Noteworthy Crew</h2>
+					<a href="">Belanna Torres (Chief Engineer)</a>
+					<a href="">Kes (Ocampa and Telepath)</a>
+					<a href="">Seska (Cardassian Spy)</a>
+					<a href="">Naomi Wildman (Future Captain's Assistant)</a>
+				</section>
+				<section class="where-to-watch">
+					<h2>Where to Watch</h2>
+					<p>Netflix<br />
+						CBS<br />
+						Pluto TV<br />
+						Amazon Prime Video</p>
+				</section>
+			</aside>
+			<footer>
+				&copy; 2020 smkoshy
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>
